@@ -1,0 +1,61 @@
+{
+    "budget2012List": [
+        0,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        2000
+
+    ],
+    "budget2011List": [
+        0,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        2000
+    ],
+    "delta": [
+        null,
+        0,
+        0,
+        0,
+        -50,
+        null,
+        0,
+        null,
+        -75,
+        0,
+        null,
+        100
+
+    ],
+    "names": [
+        "Securities and Exchange Commission",
+        "Other Commissions and Boards(discretion)",
+        "Office of Chief Economist(discretion)",
+        "Departmental Management(discretion)",
+        "United States Geological Survey(discretion)",
+        "Public Company Accounting Oversight Board(discretion)",
+        "Christopher Columbus Fellowship Foundation(discretion)",
+        "Morris K. Udall and Stewart L. Udall Foundation(discretion)",
+        "Other(discretion)",
+        "Office of the Secretary(discretion)",
+        "United States Tax Court(discretion)",
+        "United States Court of Appeals for Veterans Claims(discretion)"
+
+    ]
+}

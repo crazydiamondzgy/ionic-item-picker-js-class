@@ -1,0 +1,16 @@
+﻿<div class='pickerContainer'>
+    <div class='main'>
+        <div class='body'>
+            <div class='row row-no-padding'>
+                <div class='col'  ng-if='!options.hideYear' >
+                    <ion-scroll  on-scroll='scrollingEvent(year)' delegate-handle='yearScroll_0' scrollbar-y='false' class='itemContent'>
+                        <ul>
+                            <li ng-style="item.selected ? { color: '#FFFFFF',fontWeight: 'bold', fontSize: '1.2em'}:{}" class='selected' ng-click='selectEvent(item, $index)' ng-repeat='item in itemList'>{{item.text}}</li>
+                        </ul>
+                    </ion-scroll>
+                </div>
+            </div>
+            <div class='body_center_highlight'></div>
+        </div>
+    </div>
+</div>

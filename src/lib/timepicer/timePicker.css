@@ -1,0 +1,62 @@
+.pickerContainer {
+    position: relative;
+    z-index: 20;
+}
+
+.pickerContainer .main {
+    position: relative;
+    width: 100%;
+    height: 270px;
+}
+
+.pickerContainer .itemContent {
+    height: 270px;
+}
+
+.pickerContainer .body {
+    position: relative;
+    background-color: #039DD6;
+
+}
+
+.pickerContainer .body_center_highlight {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.pickerContainer .body_center_highlight::before {
+    position: absolute;
+    display: block;
+    top: 115px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1.0);
+    content: ' ';
+    /*background-image:-webkit-linear-gradient(to bottom,rgba(255, 255, 255, .4)  );*/
+    /*background-image:linear-gradient(to bottom,  rgb(228, 231, 234), rgba(255, 255, 255, .4));*/
+}
+
+.pickerContainer .body_center_highlight::after {
+    position: absolute;
+    display: block;
+    top: 155px;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1.0);
+    content: ' ';
+    /*background-image:-webkit-linear-gradient(to bottom ,rgba(255, 255, 255, .4) , rgb(207, 213, 218));*/
+    /*background-image:linear-gradient(to bottom, rgba(255, 255, 255, .4),  rgb(207, 213, 218));*/
+}
+
+.pickerContainer ul li {
+    height: 40px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}

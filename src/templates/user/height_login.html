@@ -1,0 +1,17 @@
+<ion-view hide-tabs title="{{'height_login' | translate}}" style="color:#fff">
+    <ion-nav-bar class="bar-positive2 nav-title-slide-ios7" align-title="center" >
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content overflow-scroll="true" style="overflow: hidden;background-color:#039DD6  " >
+            <p>{{heightOption.itemSelected}}</p>
+            <item-picker option="heightOption"></item-picker>
+            <div style="text-align:center;margin:0 auto">
+                <!--<a  class="seekButton blue" ng-controller="height_loginCtrl" ng-click="onClickNext()" >{{'next_button' | translate}}</a>-->
+                <div class="yuanjiao" ng-controller="height_loginCtrl" ng-click="onClickNext()">
+                    {{'next_button' | translate}}
+                </div>
+            </div>
+    </ion-content>
+
+</ion-view>

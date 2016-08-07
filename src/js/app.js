@@ -1,7 +1,7 @@
 angular.module('ufind1', [
 	'ionic',
     'ufind1.controllers',
-    'heightpicker',
+    'heightpicker'
 ])
 
 .run(function($ionicPlatform,$state) {
@@ -20,6 +20,4 @@ angular.module('ufind1', [
 			StatusBar.styleDefault();
 		}
 	});
-
-
 });

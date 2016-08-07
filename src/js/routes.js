@@ -3,7 +3,6 @@ angular.module('ufind1')
         $stateProvider
             .state("height_login", {
                 url: "/height_login",
-                cache: 'false',
                 templateUrl: "templates/user/height_login.html",
                 controller: "height_loginCtrl"
             })

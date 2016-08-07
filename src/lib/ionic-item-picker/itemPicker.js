@@ -1,10 +1,10 @@
 ﻿(function () {
     'use strict';
-    angular.module('heightpicker', [])
+    angular.module('ionic-item-picker', [])
         .directive('itemPicker', ['$timeout', '$ionicScrollDelegate',
             function ($timeout, $ionicScrollDelegate) {
                 return {
-                    templateUrl: 'lib/timepicer/itemPicker.html',
+                    templateUrl: 'lib/ionic-item-picker/itemPicker.html',
                     restrict: 'AE',
                     replace: true,
                     scope: {option: '='},
@@ -13,7 +13,7 @@
                         scope.itemScrollTimer = null;
                         var text, data, top, item;
                         prependLi(scope.itemList, 3, "b")
-                        for (var i = 0; i <= scope.option.itemList.length; i++) {
+                        for (var i = 0; i < scope.option.itemList.length; i++) {
                             text = scope.option.itemList[i];
                             data = scope.option.itemList[i];
                             top = 40 + scope.itemList[scope.itemList.length - 1].top;
